@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mysql:
+    image: 'mysql:latest'
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=bubble_bluebell
+      - MYSQL_DATABASE=bluebell
+      - MYSQL_USER=bubble_pro
+      - MYSQL_PASSWORD=bubble_bluebell
